@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0434A5A426D299E1002C4292 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0434A5A326D299E0002C4292 /* AppDelegate.swift */; };
+		0434A5A626D299E1002C4292 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0434A5A526D299E1002C4292 /* SceneDelegate.swift */; };
+		0434A5AB26D299E1002C4292 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0434A5A926D299E1002C4292 /* Main.storyboard */; };
+		0434A5AE26D299E1002C4292 /* MedisageTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0434A5AC26D299E1002C4292 /* MedisageTest.xcdatamodeld */; };
+		0434A5B026D299E3002C4292 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0434A5AF26D299E3002C4292 /* Assets.xcassets */; };
+		0434A5B326D299E3002C4292 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0434A5B126D299E3002C4292 /* LaunchScreen.storyboard */; };
+		0434A5BE26D29B3B002C4292 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0434A5BD26D29B3B002C4292 /* Utilities.swift */; };
+		0434A5C026D29C86002C4292 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0434A5BF26D29C86002C4292 /* LoginViewController.swift */; };
+		0434A5C226D29CB2002C4292 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0434A5C126D29CB2002C4292 /* PostViewController.swift */; };
+		0434A5C426D29CBE002C4292 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0434A5C326D29CBE002C4292 /* FavoriteViewController.swift */; };
+		0434A5C626D2A4DB002C4292 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0434A5C526D2A4DB002C4292 /* TabBarController.swift */; };
+		0434A5EF26D37BF0002C4292 /* MedisageTestEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0434A5ED26D37BF0002C4292 /* MedisageTestEntity+CoreDataClass.swift */; };
+		0434A5F026D37BF0002C4292 /* MedisageTestEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0434A5EE26D37BF0002C4292 /* MedisageTestEntity+CoreDataProperties.swift */; };
+		049BED7C26D4BFCF0097C50B /* PostElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049BED7B26D4BFCF0097C50B /* PostElement.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0434A5A026D299E0002C4292 /* MedisageTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedisageTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0434A5A326D299E0002C4292 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0434A5A526D299E1002C4292 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0434A5AA26D299E1002C4292 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0434A5AD26D299E1002C4292 /* MedisageTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MedisageTest.xcdatamodel; sourceTree = "<group>"; };
+		0434A5AF26D299E3002C4292 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0434A5B226D299E3002C4292 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0434A5B426D299E3002C4292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0434A5BD26D29B3B002C4292 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		0434A5BF26D29C86002C4292 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		0434A5C126D29CB2002C4292 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		0434A5C326D29CBE002C4292 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		0434A5C526D2A4DB002C4292 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		0434A5ED26D37BF0002C4292 /* MedisageTestEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MedisageTestEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		0434A5EE26D37BF0002C4292 /* MedisageTestEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MedisageTestEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		049BED7B26D4BFCF0097C50B /* PostElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostElement.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0434A59D26D299E0002C4292 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0434A59726D299E0002C4292 = {
+			isa = PBXGroup;
+			children = (
+				0434A5ED26D37BF0002C4292 /* MedisageTestEntity+CoreDataClass.swift */,
+				0434A5EE26D37BF0002C4292 /* MedisageTestEntity+CoreDataProperties.swift */,
+				0434A5A226D299E0002C4292 /* MedisageTest */,
+				0434A5A126D299E0002C4292 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0434A5A126D299E0002C4292 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0434A5A026D299E0002C4292 /* MedisageTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0434A5A226D299E0002C4292 /* MedisageTest */ = {
+			isa = PBXGroup;
+			children = (
+				0434A5BA26D299EB002C4292 /* App Files */,
+				049BED7A26D4BC320097C50B /* Model */,
+				0434A5BB26D29A05002C4292 /* View */,
+				0434A5BC26D29A12002C4292 /* View Model */,
+				0434A5AF26D299E3002C4292 /* Assets.xcassets */,
+				0434A5B426D299E3002C4292 /* Info.plist */,
+				0434A5AC26D299E1002C4292 /* MedisageTest.xcdatamodeld */,
+			);
+			path = MedisageTest;
+			sourceTree = "<group>";
+		};
+		0434A5BA26D299EB002C4292 /* App Files */ = {
+			isa = PBXGroup;
+			children = (
+				0434A5A326D299E0002C4292 /* AppDelegate.swift */,
+				0434A5A526D299E1002C4292 /* SceneDelegate.swift */,
+				0434A5BD26D29B3B002C4292 /* Utilities.swift */,
+			);
+			path = "App Files";
+			sourceTree = "<group>";
+		};
+		0434A5BB26D29A05002C4292 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0434A5A926D299E1002C4292 /* Main.storyboard */,
+				0434A5B126D299E3002C4292 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0434A5BC26D29A12002C4292 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				0434A5BF26D29C86002C4292 /* LoginViewController.swift */,
+				0434A5C526D2A4DB002C4292 /* TabBarController.swift */,
+				0434A5C126D29CB2002C4292 /* PostViewController.swift */,
+				0434A5C326D29CBE002C4292 /* FavoriteViewController.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		049BED7A26D4BC320097C50B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				049BED7B26D4BFCF0097C50B /* PostElement.swift */,
+			);
+			name = Model;
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0434A59F26D299E0002C4292 /* MedisageTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0434A5B726D299E3002C4292 /* Build configuration list for PBXNativeTarget "MedisageTest" */;
+			buildPhases = (
+				0434A59C26D299E0002C4292 /* Sources */,
+				0434A59D26D299E0002C4292 /* Frameworks */,
+				0434A59E26D299E0002C4292 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MedisageTest;
+			productName = MedisageTest;
+			productReference = 0434A5A026D299E0002C4292 /* MedisageTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0434A59826D299E0002C4292 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					0434A59F26D299E0002C4292 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 0434A59B26D299E0002C4292 /* Build configuration list for PBXProject "MedisageTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0434A59726D299E0002C4292;
+			productRefGroup = 0434A5A126D299E0002C4292 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0434A59F26D299E0002C4292 /* MedisageTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0434A59E26D299E0002C4292 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0434A5B326D299E3002C4292 /* LaunchScreen.storyboard in Resources */,
+				0434A5B026D299E3002C4292 /* Assets.xcassets in Resources */,
+				0434A5AB26D299E1002C4292 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0434A59C26D299E0002C4292 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0434A5C026D29C86002C4292 /* LoginViewController.swift in Sources */,
+				0434A5AE26D299E1002C4292 /* MedisageTest.xcdatamodeld in Sources */,
+				0434A5C226D29CB2002C4292 /* PostViewController.swift in Sources */,
+				049BED7C26D4BFCF0097C50B /* PostElement.swift in Sources */,
+				0434A5C626D2A4DB002C4292 /* TabBarController.swift in Sources */,
+				0434A5A426D299E1002C4292 /* AppDelegate.swift in Sources */,
+				0434A5BE26D29B3B002C4292 /* Utilities.swift in Sources */,
+				0434A5EF26D37BF0002C4292 /* MedisageTestEntity+CoreDataClass.swift in Sources */,
+				0434A5F026D37BF0002C4292 /* MedisageTestEntity+CoreDataProperties.swift in Sources */,
+				0434A5C426D29CBE002C4292 /* FavoriteViewController.swift in Sources */,
+				0434A5A626D299E1002C4292 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0434A5A926D299E1002C4292 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0434A5AA26D299E1002C4292 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0434A5B126D299E3002C4292 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0434A5B226D299E3002C4292 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0434A5B526D299E3002C4292 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0434A5B626D299E3002C4292 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0434A5B826D299E3002C4292 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 24XFNJTF4T;
+				INFOPLIST_FILE = MedisageTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.abhi.MedisageTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0434A5B926D299E3002C4292 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 24XFNJTF4T;
+				INFOPLIST_FILE = MedisageTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.abhi.MedisageTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0434A59B26D299E0002C4292 /* Build configuration list for PBXProject "MedisageTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0434A5B526D299E3002C4292 /* Debug */,
+				0434A5B626D299E3002C4292 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0434A5B726D299E3002C4292 /* Build configuration list for PBXNativeTarget "MedisageTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0434A5B826D299E3002C4292 /* Debug */,
+				0434A5B926D299E3002C4292 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0434A5AC26D299E1002C4292 /* MedisageTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0434A5AD26D299E1002C4292 /* MedisageTest.xcdatamodel */,
+			);
+			currentVersion = 0434A5AD26D299E1002C4292 /* MedisageTest.xcdatamodel */;
+			path = MedisageTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0434A59826D299E0002C4292 /* Project object */;
+}
